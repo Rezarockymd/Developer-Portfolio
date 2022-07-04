@@ -6,6 +6,7 @@ h1 {
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    width: 100%;
 
 
 }
@@ -15,10 +16,12 @@ body {
     padding-left: 30px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 
 }
 
 .Bottom-banner {
+    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     padding-left: 30px;
@@ -29,12 +32,14 @@ body {
     width: 50%;
     padding-left: 20px;
     margin-right: 100px;
+    
 
 
 }
 
 .half-width img {
     width: 50%;
+    padding-top:50px;
 
 
 }
@@ -48,8 +53,49 @@ body {
     border-radius: 5px;
 }
 
-
-section {
+.flexble-container {
     display: flex;
-    margin-bottom: 100px;
+
+}
+
+.box-container {
+    
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: left;  
+}
+#front-d{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 4%;
+    margin-left: 3%;
+    border-left: solid 7px tomato;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+}
+#baby-d{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 4%;
+    margin-left: 3%;
+    border-left: solid 7px blue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.experi{
+    display: flex;
+    
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: left; 
+
+}
+footer{
+    padding-top: 100px;
+    text-align: center;
 }
